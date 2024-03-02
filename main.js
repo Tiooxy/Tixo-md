@@ -1,7 +1,3 @@
-/**
- * DannTeam
- * ig: @dannalwaysalone
-*/
 
 (async() => { 
 require('./config')
