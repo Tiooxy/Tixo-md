@@ -1,0 +1,13 @@
+{
+  "name": "tixo-md",
+  "description": "Lightweight WhatsApp Bot With Baileys Multidevice",
+  "repository": "https://github.com/Tiooxy/Tixo-md",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["bot", "whatsapp", "whatsapp-bot"]
+  "buildpacks": [
+    {"url": "heroku/nodejs"},
+    {"url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"},
+    {"url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git"},
+    {"url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"}
+  ]
+}
