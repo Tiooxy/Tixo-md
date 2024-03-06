@@ -124,7 +124,7 @@ const connectionOptions = {
 		return message;
 	},
 	version: (await (await fetch('https://raw.githubusercontent.com/WhiskeySockets/Baileys/master/src/Defaults/baileys-version.json')).json()).version,
-	browser: ['Chrome (Linux)'],
+	browser: ['Linux', 'Chrome', ''],
 	logger: pino({ level: 'fatal' }),
 	auth: { 
 		creds: state.creds, 
